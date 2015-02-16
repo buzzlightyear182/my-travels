@@ -13,7 +13,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   text-align: center;
   display: inline !important;
   padding: 14px 0;
-  width: 120px !important;
+  width: 130px !important;
 }
 
 .btn-group a {
@@ -24,4 +24,8 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
 .btn-toolbar {
   margin-bottom: 1px;
+}
+
+.btn-group-vertical {
+  width: 100%;
 }
