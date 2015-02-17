@@ -1,0 +1,88 @@
+{"trips":{
+  "January":{
+    "01":
+      {
+        "year": "2015",
+        "place": "London",
+        "country": "United Kingdom"
+      },
+    "02":
+      {
+        "year": "2015",
+        "place": "Oxford",
+        "country": "United Kingdom"
+      },
+    "03":
+      {
+        "year": "2015",
+        "place": "London",
+        "country": "United Kingdom"
+    },
+    "04":
+      {
+        "year": "2015",
+        "place": "London",
+        "country": "United Kingdom"
+    },
+    "05":
+      {
+        "year": "2015",
+        "place": "London",
+        "country": "United Kingdom"
+    },
+    "06":
+      {
+        "year": "2015",
+        "place": "Stonehenge, Windsor Castle & Bath",
+        "country": "United Kingdom"
+    },
+    "07":
+      {
+        "year": "2015",
+        "place": "Stonehenge, Windsor Castle & Bath",
+        "country": "United Kingdom"
+    }
+  },
+  "February":{
+    "02":
+      {
+        "year": "2015",
+        "place": "Nami Island",
+        "country": "South Korea"
+      },
+    "03":
+      {
+        "year": "2015",
+        "place": "Seoraksan National Park",
+        "country": "South Korea"
+      },
+    "04":
+      {
+        "year": "2015",
+        "place": "Seoul",
+        "country": "South Korea"
+      },
+    "05":
+      {
+        "year": "2015",
+        "place": "Seoul",
+        "country": "South Korea"
+      },
+    "06":
+      {
+        "year": "2015",
+        "place": "Seoul",
+        "country": "South Korea"
+      }
+    },
+    "March":{},
+    "April":{},
+    "May":{},
+    "June":{},
+    "July":{},
+    "August":{},
+    "September":{},
+    "October":{},
+    "November":{},
+    "December":{}
+  }}

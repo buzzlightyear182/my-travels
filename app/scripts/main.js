@@ -40,6 +40,29 @@ $(document).ready(function() {
     getEventsOf(year);
   });
 
+  $('.event').click(function(){
+    event.target.setAttribute("data-toggle", "modal");
+    event.target.setAttribute("data-target", "#modal_details");
+    var month = event.target.parentElement.previousElementSibling.textContent;
+    var day = event.target.textContent;
+
+    $.getJSON("../scripts/trips.json", function(data){
+      var trip = data.trips[month][day];
+      showOnModal(trip);
+    })
+    .done(function(data) {
+      console.log("Loaded!");
+    })
+    .fail(function() {
+      console.log("Error: Failed to get JSON Data");
+    })
+  });
+
+  function showOnModal(trip){
+    var location = trip["place"] + ", " + trip.country
+    $('.modal-title').text(location);
+  }
+
   function getEventsOf(year){
     var events_year = '.year_'+year;
     var events_array = document.querySelectorAll(events_year);
@@ -63,6 +86,8 @@ $(document).ready(function() {
       if (all_events[i].classList.length === 4){
         var last_class = all_events[i].classList[3];
         all_events[i].classList.remove(last_class);
+        all_events[i].removeAttribute("data-toggle", "modal");
+        all_events[i].removeAttribute("data-target", "#modal_details");
       }
     }
   }
