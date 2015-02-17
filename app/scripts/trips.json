@@ -97,36 +97,123 @@
         "place": "Cooking School in Bangkok",
         "country": "Thailand"
       },
-      "07":{
-        "year": "2009",
-        "place": "Universal Studios Osaka",
-        "country": "Japan"
+      "06":{
+        "year": "2012",
+        "place": "Train to Jaipur",
+        "country": "India"
       },
-      "08":{
-        "year": "2009",
-        "place": "Nara",
-        "country": "Japan"
+      "07":[
+        {
+          "year": "2009",
+          "place": "Universal Studios Osaka",
+          "country": "Japan"
+        },
+        {
+          "year": "2012",
+          "place": "Jaipur & Elephant Festival",
+          "country": "India"
+        }],
+      "08":[
+        {
+          "year": "2009",
+          "place": "Nara",
+          "country": "Japan"
+        },
+        {
+          "year": "2012",
+          "place": "Jodhpur & Holi Festival",
+          "country": "India"
+        }],
+      "09":{
+        "year": "2012",
+        "place": "Jaisalmer",
+        "country": "India"
       },
-      "10":{
-        "year": "2009",
-        "place": "Kobe Beef Dinner",
-        "country": "Japan"
+      "10":[
+        {
+          "year": "2009",
+          "place": "Kobe Beef Dinner",
+          "country": "Japan"
+        },
+        {
+          "year": "2012",
+          "place": "Jaisalmer Desert",
+          "country": "India"
+        }
+      ],
+      "11":{
+        "year": "2012",
+        "place": "Pushkar",
+        "country": "India"
       },
-      "13":{
-        "year": "2009",
-        "place": "Kobe Oji Zoo",
-        "country": "Japan"
+      "12":{
+        "year": "2012",
+        "place": "Udaipur",
+        "country": "India"
       },
-      "29":{
-        "year": "2008",
-        "place": "Kobe",
-        "country": "Japan"
+      "13":[
+        {
+          "year": "2009",
+          "place": "Kobe Oji Zoo",
+          "country": "Japan"
+        },
+        {
+        "year": "2012",
+        "place": "Taj Mahal, Agra",
+        "country": "India"
+      }],
+      "14":{
+        "year": "2012",
+        "place": "New Delhi",
+        "country": "India"
       },
-      "30":{
-        "year": "2008",
-        "place": "Universal Studios Osaka",
-        "country": "Japan"
-      }
+      "24":{
+        "year": "2013",
+        "place": "Singapore",
+        "country": "Singapore"
+      },
+      "25":{
+        "year": "2013",
+        "place": "Singapore",
+        "country": "Singapore"
+      },
+      "26":{
+        "year": "2013",
+        "place": "Singapore",
+        "country": "Singapore"
+      },
+      "27":{
+        "year": "2013",
+        "place": "Singapore",
+        "country": "Singapore"
+      },
+      "28":{
+        "year": "2013",
+        "place": "Singapore",
+        "country": "Singapore"
+      },
+      "29":[
+        {
+          "year": "2008",
+          "place": "Kobe",
+          "country": "Japan"
+        },
+        {
+          "year": "2013",
+          "place": "Singapore",
+          "country": "Singapore"
+        }],
+      "30":[
+        {
+          "year": "2008",
+          "place": "Universal Studios Osaka",
+          "country": "Japan"
+        },
+        {
+          "year": "2013",
+          "place": "Singapore",
+          "country": "Singapore"
+        }]
     },
     "April":{
       "05":{
@@ -169,28 +256,139 @@
         "place": "Shanghai Auto Show",
         "country": "China"
       },
-      "23":{
-        "year": "2010",
-        "place": "Beijing",
-        "country": "China"
-      },
-      "24":{
-       "year": "2010",
-        "place": "Beijing",
-        "country": "China"
-      },
-      "25":{
-        "year": "2010",
-        "place": "Beijing",
-        "country": "China"
-      },
+      "23":[
+        {
+          "year": "2009",
+          "place": "Shanghai",
+          "country": "China"
+        },
+        {
+          "year": "2010",
+          "place": "Beijing",
+          "country": "China"
+        }],
+      "24":[
+        {
+          "year": "2009",
+          "place": "Shanghai",
+          "country": "China"
+        },
+        {
+          "year": "2010",
+          "place": "Beijing",
+          "country": "China"
+        }],
+      "25":[
+        {
+          "year": "2009",
+          "place": "Hongkong",
+          "country": "China"
+        },
+        {
+          "year": "2010",
+          "place": "Beijing",
+          "country": "China"
+        }],
       "26":{
         "year": "2010",
         "place": "Hongkong",
         "country": "China"
+      },
+      "28":{
+        "year": "2012",
+        "place": "Batad",
+        "country": "Philippines"
+      },
+      "29":[
+      {
+        "year": "2011",
+        "place": "Singapore",
+        "country": "Singapore"
+      },
+      {
+        "year": "2012",
+        "place": "Banaue",
+        "country": "Philippines"
+      }],
+       "30":{
+        "year": "2011",
+        "place": "Singapore",
+        "country": "Singapore"
       }
     },
-    "May":{},
+    "May":{
+      "01":{
+        "year": "2011",
+        "place": "Singapore",
+        "country": "Singapore"
+      },
+      "12":[
+        {
+          "year": "2012",
+          "place": "Hongkong",
+          "country": "China"
+        },
+        {
+          "year": "2013",
+          "place": "",
+          "country": ""
+        }],
+        "13":[
+        {
+          "year": "2012",
+          "place": "Hongkong",
+          "country": "China"
+        },
+        {
+          "year": "2013",
+          "place": "",
+          "country": ""
+        }],
+        "14":[
+        {
+          "year": "2012",
+          "place": "Hongkong",
+          "country": "China"
+        },
+        {
+          "year": "2013",
+          "place": "",
+          "country": ""
+        }],
+        "15":[
+        {
+          "year": "2012",
+          "place": "Hongkong",
+          "country": "China"
+        },
+        {
+          "year": "2013",
+          "place": "",
+          "country": ""
+        }],
+        "16":[
+        {
+          "year": "2012",
+          "place": "Hongkong",
+          "country": "China"
+        },
+        {
+          "year": "2013",
+          "place": "",
+          "country": ""
+        }],
+        "17":[
+        {
+          "year": "2012",
+          "place": "Hongkong",
+          "country": "China"
+        },
+        {
+          "year": "2013",
+          "place": "",
+          "country": ""
+        }]
+    },
     "June":{
       "01":{
         "year": "2008",
@@ -234,16 +432,18 @@
           "place": "Imperial Palace & Asakusa, Tokyo",
           "country": "Japan"
         },
-      "16":{
-        "year": "2010",
-        "place": "Kyoto",
-        "country": "Japan"
-      },
-      "17":{
-        "year": "2010",
-        "place": "Momofuku Ando Instant Ramen Museum, Ikeda",
-        "country": "Japan"
-      },
+      "16":
+        {
+          "year": "2010",
+          "place": "Kyoto",
+          "country": "Japan"
+        },
+      "17":
+        {
+          "year": "2010",
+          "place": "Momofuku Ando Instant Ramen Museum, Ikeda",
+          "country": "Japan"
+        },
       "18":[
       {
         "year": "2009",
@@ -367,9 +567,64 @@
         "year": "2009",
         "place": "Bacolod for Masskara",
         "country": "Philippines"
+      },
+      "20":{
+        "year": "2012",
+        "place": "Bacolod for Masskara",
+        "country": "Philippines"
+      },
+      "21":{
+        "year": "2012",
+        "place": "Bacolod for Masskara",
+        "country": "Philippines"
+      },
+      "26":{
+        "year": "2012",
+        "place": "Kuala Lumpur",
+        "country": "Malaysia"
+      },
+      "27":{
+        "year": "2012",
+        "place": "Mumbai",
+        "country": "India"
+      },
+      "28":{
+        "year": "2012",
+        "place": "Ajanta",
+        "country": "India"
+      },
+      "29":{
+        "year": "2012",
+        "place": "Ellora",
+        "country": "India"
+      },
+      "30":{
+        "year": "2012",
+        "place": "Mumbai",
+        "country": "India"
+      },
+      "31":{
+        "year": "2012",
+        "place": "Hampi",
+        "country": "India"
       }
     },
     "November":{
+      "01":{
+        "year": "2012",
+        "place": "Hampi",
+        "country": "India"
+      },
+      "02":{
+        "year": "2012",
+        "place": "Mysore",
+        "country": "India"
+      },
+      "03":{
+        "year": "2012",
+        "place": "Bangalore",
+        "country": "India"
+      },
       "18":{
         "year": "2009",
         "place": "Caramoan",
