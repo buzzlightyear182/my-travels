@@ -41,26 +41,50 @@ $(document).ready(function() {
   });
 
   $('.event').click(function(){
-    event.target.setAttribute("data-toggle", "modal");
-    event.target.setAttribute("data-target", "#modal_details");
+    event.target.setAttribute('data-toggle', 'modal');
+    event.target.setAttribute('data-target', '#modal_details');
+    removeOnModal();
+
     var month = event.target.parentElement.previousElementSibling.textContent;
     var day = event.target.textContent;
 
-    $.getJSON("../scripts/trips.json", function(data){
-      var trip = data.trips[month][day];
-      showOnModal(trip);
-    })
-    .done(function(data) {
-      console.log("Loaded!");
-    })
-    .fail(function() {
-      console.log("Error: Failed to get JSON Data");
-    })
+    getTrips(month,day);
   });
 
-  function showOnModal(trip){
-    var location = trip["place"] + ", " + trip.country
-    $('.modal-title').text(location);
+  function getTrips(month, day){
+    $.getJSON('../scripts/trips.json', function(data){
+      var trip = data.trips[month][day];
+      if (trip.length > 1) {
+        showAllDayEvents(trip, month, day);
+      }
+      else {
+        showOnModal(trip, month, day);
+      }
+    })
+    .done(function(data) {
+      console.log('Loaded!');
+    })
+    .fail(function() {
+      console.log('Error: Failed to get JSON Data');
+    })
+  }
+
+  function showAllDayEvents(trip, month, day){
+    for (i = 0; i < trip.length; i++){
+      showOnModal(trip[i], month, day)
+    }
+  }
+
+  function showOnModal(trip, month, day){
+    var location = trip.place + ", " + trip.country
+    var date = month + " " + day +  ", " + trip.year
+
+    $('.modal-header').append('<h4 class="modal-title">' + location + '</h4><p class="modal-title">' + date + '</h4><hr>');
+  }
+
+  function removeOnModal(){
+    $('.modal-title').remove();
+    $('.modal-header hr').remove();
   }
 
   function getEventsOf(year){
@@ -86,8 +110,8 @@ $(document).ready(function() {
       if (all_events[i].classList.length === 4){
         var last_class = all_events[i].classList[3];
         all_events[i].classList.remove(last_class);
-        all_events[i].removeAttribute("data-toggle", "modal");
-        all_events[i].removeAttribute("data-target", "#modal_details");
+        all_events[i].removeAttribute('data-toggle', 'modal');
+        all_events[i].removeAttribute('data-target', '#modal_details');
       }
     }
   }

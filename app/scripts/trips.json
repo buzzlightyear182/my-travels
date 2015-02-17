@@ -73,16 +73,374 @@
         "year": "2015",
         "place": "Seoul",
         "country": "South Korea"
+      },
+    "16":
+      {
+        "year": "2009",
+        "place": "Laiya, Batangas",
+        "country": "Philippines"
       }
     },
-    "March":{},
-    "April":{},
+    "March":{
+      "01":{
+        "year": "2009",
+        "place": "Osaka",
+        "country": "Japan"
+      },
+      "02":{
+        "year": "2009",
+        "place": "Osaka",
+        "country": "Japan"
+      },
+      "05":{
+        "year": "2012",
+        "place": "Cooking School in Bangkok",
+        "country": "Thailand"
+      },
+      "07":{
+        "year": "2009",
+        "place": "Universal Studios Osaka",
+        "country": "Japan"
+      },
+      "08":{
+        "year": "2009",
+        "place": "Nara",
+        "country": "Japan"
+      },
+      "10":{
+        "year": "2009",
+        "place": "Kobe Beef Dinner",
+        "country": "Japan"
+      },
+      "13":{
+        "year": "2009",
+        "place": "Kobe Oji Zoo",
+        "country": "Japan"
+      },
+      "29":{
+        "year": "2008",
+        "place": "Kobe",
+        "country": "Japan"
+      },
+      "30":{
+        "year": "2008",
+        "place": "Universal Studios Osaka",
+        "country": "Japan"
+      }
+    },
+    "April":{
+      "05":{
+        "year": "2008",
+        "place": "Cherry Blossoms in Kyoto",
+        "country": "Japan"
+      },
+      "06":{
+        "year": "2008",
+        "place": "Kobe",
+        "country": "Japan"
+      },
+      "07":{
+        "year": "2008",
+        "place": "Osaka",
+        "country": "Japan"
+      },
+      "18":{
+        "year": "2009",
+        "place": "Terra Cotta Warriors in Xian",
+        "country": "China"
+      },
+      "19":{
+        "year": "2009",
+        "place": "F1 Gran Prix Shanghai",
+        "country": "China"
+      },
+      "20":{
+        "year": "2009",
+        "place": "Xitang",
+        "country": "China"
+      },
+      "21":{
+        "year": "2009",
+        "place": "Shanghai",
+        "country": "China"
+      },
+      "22":{
+        "year": "2009",
+        "place": "Shanghai Auto Show",
+        "country": "China"
+      },
+      "23":{
+        "year": "2010",
+        "place": "Beijing",
+        "country": "China"
+      },
+      "24":{
+       "year": "2010",
+        "place": "Beijing",
+        "country": "China"
+      },
+      "25":{
+        "year": "2010",
+        "place": "Beijing",
+        "country": "China"
+      },
+      "26":{
+        "year": "2010",
+        "place": "Hongkong",
+        "country": "China"
+      }
+    },
     "May":{},
-    "June":{},
-    "July":{},
-    "August":{},
-    "September":{},
-    "October":{},
-    "November":{},
-    "December":{}
+    "June":{
+      "01":{
+        "year": "2008",
+        "place": "Harajuku & Omotesando, Tokyo",
+        "country": "Japan"
+      },
+      "06":{
+        "year": "2008",
+        "place": "Shinjuku, Tokyo",
+        "country": "Japan"
+      },
+      "07":{
+        "year": "2008",
+        "place": "Tokyo Disneyland",
+        "country": "Japan"
+      },
+      "08":{
+        "year": "2008",
+        "place": "Daimon, Tsukiji & Ginza, Tokyo",
+        "country": "Japan"
+      },
+      "09":{
+        "year": "2008",
+        "place": "Shinkansen to Takasaki",
+        "country": "Japan"
+      },
+      "13":[
+        {
+          "year": "2008",
+          "place": "Shibuya & Ikebukuro, Tokyo",
+          "country": "Japan"
+        },
+        {
+          "year": "2009",
+          "place": "Nikko-Kinugawa",
+          "country": "Japan"
+        }],
+      "14":
+        {
+          "year": "2008",
+          "place": "Imperial Palace & Asakusa, Tokyo",
+          "country": "Japan"
+        },
+      "16":{
+        "year": "2010",
+        "place": "Kyoto",
+        "country": "Japan"
+      },
+      "17":{
+        "year": "2010",
+        "place": "Momofuku Ando Instant Ramen Museum, Ikeda",
+        "country": "Japan"
+      },
+      "18":[
+      {
+        "year": "2009",
+        "place": "Shinjuku, Tokyo",
+        "country": "Japan"
+      },
+      {
+        "year": "2010",
+        "place": "Tokyo Disneyland",
+        "country": "Japan"
+      }],
+      "19":{
+        "year": "2009",
+        "place": "Shibuya, Tokyo",
+        "country": "Japan"
+      },
+      "20":{
+        "year": "2009",
+        "place": "Sanrio Puroland",
+        "country": "Japan"
+      },
+      "21":{
+        "year": "2009",
+        "place": "Ginza, Tokyo",
+        "country": "Japan"
+      },
+      "27":{
+        "year": "2009",
+        "place": "Tokyo Disneysea",
+        "country": "Japan"
+      }
+    },
+    "July":{
+      "04":{
+        "year": "2009",
+        "place": "Himeji Castle",
+        "country": "Japan"
+      }
+      },
+    "August":{
+      "05":{
+        "year": "2011",
+        "place": "Bangkok",
+        "country": "Thailand"
+      },
+      "06":{
+        "year": "2011",
+        "place": "Ayutthaya",
+        "country": "Thailand"
+      },
+      "07":{
+        "year": "2011",
+        "place": "Bangkok",
+        "country": "Thailand"
+      },
+      "16":{
+        "year": "2008",
+        "place": "Vigan, Ilocos Sur",
+        "country": "Philippines"
+      },
+      "17":{
+        "year": "2008",
+        "place": "Laoag, Ilocos Norte",
+        "country": "Philippines"
+      },
+      "18":{
+        "year": "2008",
+        "place": "Pagudpod, Ilocos Norte",
+        "country": "Philippines"
+      }
+      },
+    "September":{
+      "24":{
+        "year": "2008",
+        "place": "Dubai",
+        "country": "UAE"
+      },
+      "25":{
+        "year": "2008",
+        "place": "Cairo",
+        "country": "Egypt"
+      },
+      "26":{
+        "year": "2008",
+        "place": "Khan-El-Khalili bazaar, Cairo",
+        "country": "Egypt"
+      },
+      "27":{
+        "year": "2008",
+        "place": "Alexandria",
+        "country": "Egypt"
+      },
+      "28":{
+        "year": "2008",
+        "place": "Egyptian Museum & Citadel, Cairo",
+        "country": "Egypt"
+      }
+      },
+    "October":{
+      "03":{
+        "year": "2008",
+        "place": "Pyramids of Giza",
+        "country": "Egypt"
+      },
+      "06":{
+        "year": "2008",
+        "place": "Step Pyramid of Djoser, Saqqara",
+        "country": "Egypt"
+      },
+      "16":{
+        "year": "2009",
+        "place": "The Ruins in Talisay",
+        "country": "Philippines"
+      },
+      "17":{
+        "year": "2009",
+        "place": "Bacolod for Masskara",
+        "country": "Philippines"
+      },
+      "18":{
+        "year": "2009",
+        "place": "Bacolod for Masskara",
+        "country": "Philippines"
+      }
+    },
+    "November":{
+      "18":{
+        "year": "2009",
+        "place": "Caramoan",
+        "country": "Philippines"
+      },
+      "19":{
+        "year": "2009",
+        "place": "Caramoan",
+        "country": "Philippines"
+      },
+      "20":{
+        "year": "2009",
+        "place": "Caramoan",
+        "country": "Philippines"
+      },
+      "21":{
+        "year": "2009",
+        "place": "Caramoan",
+        "country": "Philippines"
+      },
+      "23":{
+        "year": "2010",
+        "place": "Hongkong",
+        "country": "China"
+      },
+      "24":{
+        "year": "2010",
+        "place": "Hongkong Disneyland",
+        "country": "China"
+      },
+      "25":{
+        "year": "2010",
+        "place": "Macau",
+        "country": "China"
+      },
+      "26":{
+        "year": "2010",
+        "place": "The Peak, Hongkong",
+        "country": "China"
+      }
+    },
+    "December":{
+      "14":{
+        "year": "2008",
+        "place": "Singapore",
+        "country": "Singapore"
+      },
+      "27":{
+        "year": "2014",
+        "place": "London",
+        "country": "United Kingdom"
+      },
+      "28":{
+        "year": "2014",
+        "place": "London",
+        "country": "United Kingdom"
+      },
+      "29":{
+        "year": "2014",
+        "place": "London",
+        "country": "United Kingdom"
+      },
+      "30":{
+        "year": "2014",
+        "place": "London",
+        "country": "United Kingdom"
+      },
+      "31":{
+        "year": "2014",
+        "place": "NYE in London",
+        "country": "United Kingdom"
+      }
+    }
   }}
