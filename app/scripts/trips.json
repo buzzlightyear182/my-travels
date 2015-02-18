@@ -1,701 +1,1153 @@
-{"trips":{
-  "January":{
-    "01":
-      {
-        "year": "2015",
-        "place": "London",
-        "country": "United Kingdom"
+{
+  "trips":{
+    "January":{
+      "01":{
+        "year":"2015",
+        "place":"London",
+        "country":"United Kingdom"
       },
-    "02":
-      {
-        "year": "2015",
-        "place": "Oxford",
-        "country": "United Kingdom"
+      "02":{
+        "year":"2015",
+        "place":"Oxford",
+        "country":"United Kingdom"
       },
-    "03":
-      {
-        "year": "2015",
-        "place": "London",
-        "country": "United Kingdom"
+      "03":{
+        "year":"2015",
+        "place":"London",
+        "country":"United Kingdom"
+      },
+      "04":{
+        "year":"2015",
+        "place":"London",
+        "country":"United Kingdom"
+      },
+      "05":{
+        "year":"2015",
+        "place":"London",
+        "country":"United Kingdom"
+      },
+      "06":{
+        "year":"2015",
+        "place":"Stonehenge, Windsor Castle & Bath",
+        "country":"United Kingdom"
+      },
+      "07":{
+        "year":"2015",
+        "place":"London",
+        "country":"United Kingdom"
+      },
+      "16":{
+        "year":"2013",
+        "place":"Cebu for Sinulog",
+        "country":"Philippines"
+      },
+      "17":{
+        "year":"2013",
+        "place":"Cebu for Sinulog",
+        "country":"Philippines"
+      },
+      "18":{
+        "year":"2013",
+        "place":"Cebu for Sinulog",
+        "country":"Philippines"
+      }
     },
-    "04":
-      {
-        "year": "2015",
-        "place": "London",
-        "country": "United Kingdom"
-    },
-    "05":
-      {
-        "year": "2015",
-        "place": "London",
-        "country": "United Kingdom"
-    },
-    "06":
-      {
-        "year": "2015",
-        "place": "Stonehenge, Windsor Castle & Bath",
-        "country": "United Kingdom"
-    },
-    "07":
-      {
-        "year": "2015",
-        "place": "Stonehenge, Windsor Castle & Bath",
-        "country": "United Kingdom"
-    }
-  },
-  "February":{
-    "02":
-      {
-        "year": "2015",
-        "place": "Nami Island",
-        "country": "South Korea"
+    "February":{
+      "02":{
+        "year":"2015",
+        "place":"Nami Island",
+        "country":"South Korea"
       },
-    "03":
-      {
-        "year": "2015",
-        "place": "Seoraksan National Park",
-        "country": "South Korea"
+      "03":{
+        "year":"2015",
+        "place":"Seoraksan National Park",
+        "country":"South Korea"
       },
-    "04":
-      {
-        "year": "2015",
-        "place": "Seoul",
-        "country": "South Korea"
+      "04":{
+        "year":"2015",
+        "place":"Seoul",
+        "country":"South Korea"
       },
-    "05":
-      {
-        "year": "2015",
-        "place": "Seoul",
-        "country": "South Korea"
+      "05":{
+        "year":"2015",
+        "place":"Seoul",
+        "country":"South Korea"
       },
-    "06":
-      {
-        "year": "2015",
-        "place": "Seoul",
-        "country": "South Korea"
+      "06":{
+        "year":"2015",
+        "place":"Seoul",
+        "country":"South Korea"
       },
-    "16":
-      {
-        "year": "2009",
-        "place": "Laiya, Batangas",
-        "country": "Philippines"
+      "16":{
+        "year":"2009",
+        "place":"Laiya, Batangas",
+        "country":"Philippines"
+      },
+      "18":{
+        "year":"2014",
+        "place":"Kathmandu",
+        "country":"Nepal"
+      },
+      "19":{
+        "year":"2014",
+        "place":"Pokhara",
+        "country":"Nepal"
+      },
+      "20":{
+        "year":"2014",
+        "place":"Annapurna (Ghorepani Poonhill Trek)",
+        "country":"Nepal"
+      },
+      "21":{
+        "year":"2014",
+        "place":"Annapurna (Ghorepani Poonhill Trek)",
+        "country":"Nepal"
+      },
+      "22":{
+        "year":"2014",
+        "place":"Annapurna (Ghorepani Poonhill Trek)",
+        "country":"Nepal"
+      },
+      "23":{
+        "year":"2014",
+        "place":"Kathmandu",
+        "country":"Nepal"
+      },
+      "24":{
+        "year":"2014",
+        "place":"Kathmandu",
+        "country":"Nepal"
+      },
+      "25":{
+        "year":"2014",
+        "place":"Kathmandu",
+        "country":"Nepal"
       }
     },
     "March":{
       "01":{
-        "year": "2009",
-        "place": "Osaka",
-        "country": "Japan"
+        "year":"2009",
+        "place":"Osaka",
+        "country":"Japan"
       },
       "02":{
-        "year": "2009",
-        "place": "Osaka",
-        "country": "Japan"
+        "year":"2009",
+        "place":"Osaka",
+        "country":"Japan"
       },
       "05":{
-        "year": "2012",
-        "place": "Cooking School in Bangkok",
-        "country": "Thailand"
+        "year":"2012",
+        "place":"Cooking School in Bangkok",
+        "country":"Thailand"
       },
       "06":{
-        "year": "2012",
-        "place": "Train to Jaipur",
-        "country": "India"
+        "year":"2012",
+        "place":"Train to Jaipur",
+        "country":"India"
       },
       "07":[
         {
-          "year": "2009",
-          "place": "Universal Studios Osaka",
-          "country": "Japan"
+          "year":"2009",
+          "place":"Universal Studios Osaka",
+          "country":"Japan"
         },
         {
-          "year": "2012",
-          "place": "Jaipur & Elephant Festival",
-          "country": "India"
-        }],
+          "year":"2012",
+          "place":"Jaipur & Elephant Festival",
+          "country":"India"
+        }
+      ],
       "08":[
         {
-          "year": "2009",
-          "place": "Nara",
-          "country": "Japan"
+          "year":"2009",
+          "place":"Nara",
+          "country":"Japan"
         },
         {
-          "year": "2012",
-          "place": "Jodhpur & Holi Festival",
-          "country": "India"
-        }],
+          "year":"2012",
+          "place":"Jodhpur & Holi Festival",
+          "country":"India"
+        }
+      ],
       "09":{
-        "year": "2012",
-        "place": "Jaisalmer",
-        "country": "India"
+        "year":"2012",
+        "place":"Jaisalmer",
+        "country":"India"
       },
       "10":[
         {
-          "year": "2009",
-          "place": "Kobe Beef Dinner",
-          "country": "Japan"
+          "year":"2009",
+          "place":"Kobe Beef Dinner",
+          "country":"Japan"
         },
         {
-          "year": "2012",
-          "place": "Jaisalmer Desert",
-          "country": "India"
+          "year":"2012",
+          "place":"Jaisalmer Desert",
+          "country":"India"
         }
       ],
       "11":{
-        "year": "2012",
-        "place": "Pushkar",
-        "country": "India"
+        "year":"2012",
+        "place":"Pushkar",
+        "country":"India"
       },
       "12":{
-        "year": "2012",
-        "place": "Udaipur",
-        "country": "India"
+        "year":"2012",
+        "place":"Udaipur",
+        "country":"India"
       },
       "13":[
         {
-          "year": "2009",
-          "place": "Kobe Oji Zoo",
-          "country": "Japan"
+          "year":"2009",
+          "place":"Kobe Oji Zoo",
+          "country":"Japan"
         },
         {
-        "year": "2012",
-        "place": "Taj Mahal, Agra",
-        "country": "India"
-      }],
+          "year":"2012",
+          "place":"Taj Mahal, Agra",
+          "country":"India"
+        }
+      ],
       "14":{
-        "year": "2012",
-        "place": "New Delhi",
-        "country": "India"
+        "year":"2012",
+        "place":"New Delhi",
+        "country":"India"
+      },
+      "15":{
+        "year":"2013",
+        "place":"Coron, Palawan",
+        "country":"Philippines"
+      },
+      "16":{
+        "year":"2013",
+        "place":"Coron, Palawan",
+        "country":"Philippines"
+      },
+      "17":{
+        "year":"2013",
+        "place":"Coron, Palawan",
+        "country":"Philippines"
+      },
+      "18":{
+        "year":"2013",
+        "place":"Coron, Palawan",
+        "country":"Philippines"
       },
       "24":{
-        "year": "2013",
-        "place": "Singapore",
-        "country": "Singapore"
+        "year":"2013",
+        "place":"Singapore",
+        "country":"Singapore"
       },
       "25":{
-        "year": "2013",
-        "place": "Singapore",
-        "country": "Singapore"
+        "year":"2013",
+        "place":"Singapore",
+        "country":"Singapore"
       },
       "26":{
-        "year": "2013",
-        "place": "Singapore",
-        "country": "Singapore"
+        "year":"2013",
+        "place":"Singapore",
+        "country":"Singapore"
       },
       "27":{
-        "year": "2013",
-        "place": "Singapore",
-        "country": "Singapore"
+        "year":"2013",
+        "place":"Singapore",
+        "country":"Singapore"
       },
       "28":{
-        "year": "2013",
-        "place": "Singapore",
-        "country": "Singapore"
+        "year":"2013",
+        "place":"Singapore",
+        "country":"Singapore"
       },
       "29":[
         {
-          "year": "2008",
-          "place": "Kobe",
-          "country": "Japan"
+          "year":"2008",
+          "place":"Kobe",
+          "country":"Japan"
         },
         {
-          "year": "2013",
-          "place": "Singapore",
-          "country": "Singapore"
-        }],
+          "year":"2013",
+          "place":"Singapore",
+          "country":"Singapore"
+        }
+      ],
       "30":[
         {
-          "year": "2008",
-          "place": "Universal Studios Osaka",
-          "country": "Japan"
+          "year":"2008",
+          "place":"Universal Studios Osaka",
+          "country":"Japan"
         },
         {
-          "year": "2013",
-          "place": "Singapore",
-          "country": "Singapore"
-        }]
+          "year":"2013",
+          "place":"Singapore",
+          "country":"Singapore"
+        }
+      ]
     },
     "April":{
       "05":{
-        "year": "2008",
-        "place": "Cherry Blossoms in Kyoto",
-        "country": "Japan"
+        "year":"2008",
+        "place":"Cherry Blossoms in Kyoto",
+        "country":"Japan"
       },
       "06":{
-        "year": "2008",
-        "place": "Kobe",
-        "country": "Japan"
+        "year":"2008",
+        "place":"Kobe",
+        "country":"Japan"
       },
       "07":{
-        "year": "2008",
-        "place": "Osaka",
-        "country": "Japan"
+        "year":"2008",
+        "place":"Osaka",
+        "country":"Japan"
       },
       "18":{
-        "year": "2009",
-        "place": "Terra Cotta Warriors in Xian",
-        "country": "China"
+        "year":"2009",
+        "place":"Terra Cotta Warriors in Xian",
+        "country":"China"
       },
       "19":{
-        "year": "2009",
-        "place": "F1 Gran Prix Shanghai",
-        "country": "China"
+        "year":"2009",
+        "place":"F1 Gran Prix Shanghai",
+        "country":"China"
       },
       "20":{
-        "year": "2009",
-        "place": "Xitang",
-        "country": "China"
+        "year":"2009",
+        "place":"Xitang",
+        "country":"China"
       },
-      "21":{
-        "year": "2009",
-        "place": "Shanghai",
-        "country": "China"
-      },
+      "21":[
+        {
+          "year":"2009",
+          "place":"Shanghai",
+          "country":"China"
+        },
+        {
+          "year":"2012",
+          "place":"Donsol, Sorsogon",
+          "country":"Philippines"
+        }
+      ],
       "22":{
-        "year": "2009",
-        "place": "Shanghai Auto Show",
-        "country": "China"
+        "year":"2009",
+        "place":"Shanghai Auto Show",
+        "country":"China"
       },
       "23":[
         {
-          "year": "2009",
-          "place": "Shanghai",
-          "country": "China"
+          "year":"2009",
+          "place":"Shanghai",
+          "country":"China"
         },
         {
-          "year": "2010",
-          "place": "Beijing",
-          "country": "China"
-        }],
+          "year":"2010",
+          "place":"Beijing",
+          "country":"China"
+        }
+      ],
       "24":[
         {
-          "year": "2009",
-          "place": "Shanghai",
-          "country": "China"
+          "year":"2009",
+          "place":"Shanghai",
+          "country":"China"
         },
         {
-          "year": "2010",
-          "place": "Beijing",
-          "country": "China"
-        }],
+          "year":"2010",
+          "place":"Beijing",
+          "country":"China"
+        },
+        {
+          "year":"2014",
+          "place":"Caen",
+          "country":"France"
+        }
+      ],
       "25":[
         {
-          "year": "2009",
-          "place": "Hongkong",
-          "country": "China"
+          "year":"2009",
+          "place":"Hongkong",
+          "country":"China"
         },
         {
-          "year": "2010",
-          "place": "Beijing",
-          "country": "China"
-        }],
+          "year":"2010",
+          "place":"Beijing",
+          "country":"China"
+        },
+        {
+          "year":"2014",
+          "place":"Caen",
+          "country":"France"
+        }
+      ],
       "26":{
-        "year": "2010",
-        "place": "Hongkong",
-        "country": "China"
+        "year":"2010",
+        "place":"Hongkong",
+        "country":"China"
+      },
+      "27":{
+        "year":"2014",
+        "place":"Valladolid",
+        "country":"Spain"
       },
       "28":{
-        "year": "2012",
-        "place": "Batad",
-        "country": "Philippines"
+        "year":"2012",
+        "place":"Batad",
+        "country":"Philippines"
       },
       "29":[
-      {
-        "year": "2011",
-        "place": "Singapore",
-        "country": "Singapore"
-      },
-      {
-        "year": "2012",
-        "place": "Banaue",
-        "country": "Philippines"
-      }],
-       "30":{
-        "year": "2011",
-        "place": "Singapore",
-        "country": "Singapore"
-      }
+        {
+          "year":"2011",
+          "place":"Singapore",
+          "country":"Singapore"
+        },
+        {
+          "year":"2012",
+          "place":"Banaue",
+          "country":"Philippines"
+        }
+      ],
+      "30":[
+        {
+          "year":"2011",
+          "place":"Singapore",
+          "country":"Singapore"
+        },
+        {
+          "year":"2014",
+          "place":"Salamanca",
+          "country":"Spain"
+        }
+      ]
     },
     "May":{
       "01":{
-        "year": "2011",
-        "place": "Singapore",
-        "country": "Singapore"
+        "year":"2011",
+        "place":"Singapore",
+        "country":"Singapore"
+      },
+      "03":{
+        "year":"2014",
+        "place":"Segovia",
+        "country":"Spain"
+      },
+      "09":{
+        "year":"2014",
+        "place":"Madrid",
+        "country":"Spain"
+      },
+      "10":{
+        "year":"2014",
+        "place":"Madrid",
+        "country":"Spain"
+      },
+      "11":{
+        "year":"2014",
+        "place":"Madrid",
+        "country":"Spain"
       },
       "12":[
         {
-          "year": "2012",
-          "place": "Hongkong",
-          "country": "China"
+          "year":"2012",
+          "place":"Hongkong",
+          "country":"China"
         },
         {
-          "year": "2013",
-          "place": "",
-          "country": ""
-        }],
-        "13":[
+          "year":"2014",
+          "place":"Madrid",
+          "country":"Spain"
+        }
+      ],
+      "13":[
         {
-          "year": "2012",
-          "place": "Hongkong",
-          "country": "China"
+          "year":"2012",
+          "place":"Hongkong",
+          "country":"China"
         },
         {
-          "year": "2013",
-          "place": "",
-          "country": ""
-        }],
-        "14":[
-        {
-          "year": "2012",
-          "place": "Hongkong",
-          "country": "China"
+          "year":"2013",
+          "place":"",
+          "country":""
         },
         {
-          "year": "2013",
-          "place": "",
-          "country": ""
-        }],
-        "15":[
+          "year":"2014",
+          "place":"Madrid",
+          "country":"Spain"
+        }
+      ],
+      "14":[
         {
-          "year": "2012",
-          "place": "Hongkong",
-          "country": "China"
+          "year":"2012",
+          "place":"Hongkong",
+          "country":"China"
         },
         {
-          "year": "2013",
-          "place": "",
-          "country": ""
-        }],
-        "16":[
-        {
-          "year": "2012",
-          "place": "Hongkong",
-          "country": "China"
+          "year":"2013",
+          "place":"",
+          "country":""
         },
         {
-          "year": "2013",
-          "place": "",
-          "country": ""
-        }],
-        "17":[
+          "year":"2014",
+          "place":"Madrid",
+          "country":"Spain"
+        }
+      ],
+      "15":[
         {
-          "year": "2012",
-          "place": "Hongkong",
-          "country": "China"
+          "year":"2012",
+          "place":"Hongkong",
+          "country":"China"
         },
         {
-          "year": "2013",
-          "place": "",
-          "country": ""
-        }]
+          "year":"2014",
+          "place":"Moscow",
+          "country":"Russia"
+        }
+      ],
+      "16":{
+        "year":"2012",
+        "place":"Hongkong",
+        "country":"China"
+      },
+      "17":{
+        "year":"2012",
+        "place":"Hongkong",
+        "country":"China"
+      },
+      "19":{
+        "year":"2013",
+        "place":"Milan",
+        "country":"Italy"
+      },
+      "20":{
+        "year":"2013",
+        "place":"Milan",
+        "country":"Italy"
+      },
+      "21":{
+        "year":"2013",
+        "place":"Genoa",
+        "country":"Italy"
+      },
+      "22":{
+        "year":"2013",
+        "place":"Rome",
+        "country":"Italy"
+      },
+      "23":{
+        "year":"2013",
+        "place":"Assisi & Pisa",
+        "country":"Italy"
+      },
+      "24":{
+        "year":"2013",
+        "place":"Venice",
+        "country":"Italy"
+      },
+      "24":{
+        "year":"2013",
+        "place":"Innsbruck",
+        "country":"Austria"
+      },
+      "26":[
+        {
+          "year":"2012",
+          "place":"Baler, Aurora",
+          "country":"Philippines"
+        },
+        {
+          "year":"2013",
+          "place":"Liechtenstein",
+          "country":"Liechtenstein"
+        },
+        {
+          "year":"2013",
+          "place":"Luzern",
+          "country":"Switzerland"
+        }
+      ],
+      "27":[
+        {
+          "year":"2012",
+          "place":"Baler, Aurora",
+          "country":"Philippines"
+        },
+        {
+          "year":"2013",
+          "place":"Glacier 3000 & Bern",
+          "country":"Switzerland"
+        }
+      ],
+      "28":{
+        "year":"2013",
+        "place":"Rhineland & Lake Titisee",
+        "country":"Germany"
+      },
+      "29":{
+        "year":"2013",
+        "place":"Cologne",
+        "country":"Germany"
+      },
+      "30":{
+        "year":"2013",
+        "place":"Amsterdam",
+        "country":"Netherlands"
+      },
+      "31":{
+        "year":"2013",
+        "place":"Brussels",
+        "country":"Belgium"
+      }
     },
     "June":{
-      "01":{
-        "year": "2008",
-        "place": "Harajuku & Omotesando, Tokyo",
-        "country": "Japan"
+      "01":[
+        {
+          "year":"2008",
+          "place":"Harajuku & Omotesando, Tokyo",
+          "country":"Japan"
+        },
+        {
+          "year":"2013",
+          "place":"Paris",
+          "country":"France"
+        }
+      ],
+      "02":{
+        "year":"2013",
+        "place":"Versailles",
+        "country":"France"
       },
-      "06":{
-        "year": "2008",
-        "place": "Shinjuku, Tokyo",
-        "country": "Japan"
+      "03":{
+        "year":"2013",
+        "place":"Paris",
+        "country":"France"
       },
-      "07":{
-        "year": "2008",
-        "place": "Tokyo Disneyland",
-        "country": "Japan"
+      "04":{
+        "year":"2013",
+        "place":"Paris",
+        "country":"France"
       },
-      "08":{
-        "year": "2008",
-        "place": "Daimon, Tsukiji & Ginza, Tokyo",
-        "country": "Japan"
+      "05":{
+        "year":"2013",
+        "place":"Barcelona",
+        "country":"Spain"
       },
+      "06":[
+        {
+          "year":"2008",
+          "place":"Shinjuku, Tokyo",
+          "country":"Japan"
+        },
+        {
+          "year":"2013",
+          "place":"Barcelona",
+          "country":"Spain"
+        }
+      ],
+      "07":[
+        {
+          "year":"2008",
+          "place":"Tokyo Disneyland",
+          "country":"Japan"
+        },
+        {
+          "year":"2013",
+          "place":"Barcelona",
+          "country":"Spain"
+        }
+      ],
+      "08":[
+        {
+          "year":"2008",
+          "place":"Daimon, Tsukiji & Ginza, Tokyo",
+          "country":"Japan"
+        },
+        {
+          "year":"2013",
+          "place":"Paris",
+          "country":"France"
+        }
+      ],
       "09":{
-        "year": "2008",
-        "place": "Shinkansen to Takasaki",
-        "country": "Japan"
+        "year":"2008",
+        "place":"Shinkansen to Takasaki",
+        "country":"Japan"
+      },
+      "12":{
+        "year":"2013",
+        "place":"Siem Reap",
+        "country":"Cambodia"
       },
       "13":[
         {
-          "year": "2008",
-          "place": "Shibuya & Ikebukuro, Tokyo",
-          "country": "Japan"
+          "year":"2008",
+          "place":"Shibuya & Ikebukuro, Tokyo",
+          "country":"Japan"
         },
         {
-          "year": "2009",
-          "place": "Nikko-Kinugawa",
-          "country": "Japan"
-        }],
-      "14":
-        {
-          "year": "2008",
-          "place": "Imperial Palace & Asakusa, Tokyo",
-          "country": "Japan"
+          "year":"2009",
+          "place":"Nikko-Kinugawa",
+          "country":"Japan"
         },
-      "16":
         {
-          "year": "2010",
-          "place": "Kyoto",
-          "country": "Japan"
-        },
-      "17":
-        {
-          "year": "2010",
-          "place": "Momofuku Ando Instant Ramen Museum, Ikeda",
-          "country": "Japan"
-        },
-      "18":[
-      {
-        "year": "2009",
-        "place": "Shinjuku, Tokyo",
-        "country": "Japan"
+          "year":"2013",
+          "place":"Siem Reap",
+          "country":"Cambodia"
+        }
+      ],
+      "14":{
+        "year":"2008",
+        "place":"Imperial Palace & Asakusa, Tokyo",
+        "country":"Japan"
       },
-      {
-        "year": "2010",
-        "place": "Tokyo Disneyland",
-        "country": "Japan"
-      }],
+      "16":{
+        "year":"2010",
+        "place":"Kyoto",
+        "country":"Japan"
+      },
+      "17":{
+        "year":"2010",
+        "place":"Momofuku Ando Instant Ramen Museum, Ikeda",
+        "country":"Japan"
+      },
+      "18":[
+        {
+          "year":"2009",
+          "place":"Shinjuku, Tokyo",
+          "country":"Japan"
+        },
+        {
+          "year":"2010",
+          "place":"Tokyo Disneyland",
+          "country":"Japan"
+        }
+      ],
       "19":{
-        "year": "2009",
-        "place": "Shibuya, Tokyo",
-        "country": "Japan"
+        "year":"2009",
+        "place":"Shibuya, Tokyo",
+        "country":"Japan"
       },
       "20":{
-        "year": "2009",
-        "place": "Sanrio Puroland",
-        "country": "Japan"
+        "year":"2009",
+        "place":"Sanrio Puroland",
+        "country":"Japan"
       },
       "21":{
-        "year": "2009",
-        "place": "Ginza, Tokyo",
-        "country": "Japan"
+        "year":"2009",
+        "place":"Ginza, Tokyo",
+        "country":"Japan"
       },
       "27":{
-        "year": "2009",
-        "place": "Tokyo Disneysea",
-        "country": "Japan"
+        "year":"2009",
+        "place":"Tokyo Disneysea",
+        "country":"Japan"
       }
     },
     "July":{
       "04":{
-        "year": "2009",
-        "place": "Himeji Castle",
-        "country": "Japan"
-      }
+        "year":"2009",
+        "place":"Himeji Castle",
+        "country":"Japan"
       },
-    "August":{
       "05":{
-        "year": "2011",
-        "place": "Bangkok",
-        "country": "Thailand"
+        "year":"2014",
+        "place":"Heidelberg",
+        "country":"Germany"
       },
       "06":{
-        "year": "2011",
-        "place": "Ayutthaya",
-        "country": "Thailand"
+        "year":"2014",
+        "place":"Heidelberg",
+        "country":"Germany"
       },
       "07":{
-        "year": "2011",
-        "place": "Bangkok",
-        "country": "Thailand"
+        "year":"2013",
+        "place":"Brunei",
+        "country":"Brunei"
       },
-      "16":{
-        "year": "2008",
-        "place": "Vigan, Ilocos Sur",
-        "country": "Philippines"
+      "12":{
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
       },
-      "17":{
-        "year": "2008",
-        "place": "Laoag, Ilocos Norte",
-        "country": "Philippines"
+      "13":{
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
       },
-      "18":{
-        "year": "2008",
-        "place": "Pagudpod, Ilocos Norte",
-        "country": "Philippines"
-      }
-      },
-    "September":{
-      "24":{
-        "year": "2008",
-        "place": "Dubai",
-        "country": "UAE"
-      },
-      "25":{
-        "year": "2008",
-        "place": "Cairo",
-        "country": "Egypt"
-      },
-      "26":{
-        "year": "2008",
-        "place": "Khan-El-Khalili bazaar, Cairo",
-        "country": "Egypt"
-      },
-      "27":{
-        "year": "2008",
-        "place": "Alexandria",
-        "country": "Egypt"
-      },
-      "28":{
-        "year": "2008",
-        "place": "Egyptian Museum & Citadel, Cairo",
-        "country": "Egypt"
-      }
-      },
-    "October":{
-      "03":{
-        "year": "2008",
-        "place": "Pyramids of Giza",
-        "country": "Egypt"
-      },
-      "06":{
-        "year": "2008",
-        "place": "Step Pyramid of Djoser, Saqqara",
-        "country": "Egypt"
-      },
-      "16":{
-        "year": "2009",
-        "place": "The Ruins in Talisay",
-        "country": "Philippines"
-      },
-      "17":{
-        "year": "2009",
-        "place": "Bacolod for Masskara",
-        "country": "Philippines"
-      },
-      "18":{
-        "year": "2009",
-        "place": "Bacolod for Masskara",
-        "country": "Philippines"
+      "19":{
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
       },
       "20":{
-        "year": "2012",
-        "place": "Bacolod for Masskara",
-        "country": "Philippines"
-      },
-      "21":{
-        "year": "2012",
-        "place": "Bacolod for Masskara",
-        "country": "Philippines"
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
       },
       "26":{
-        "year": "2012",
-        "place": "Kuala Lumpur",
-        "country": "Malaysia"
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
       },
       "27":{
-        "year": "2012",
-        "place": "Mumbai",
-        "country": "India"
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
+      }
+    },
+    "August":{
+      "02":{
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
       },
-      "28":{
-        "year": "2012",
-        "place": "Ajanta",
-        "country": "India"
+      "03":{
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
+      },
+      "05":{
+        "year":"2011",
+        "place":"Bangkok",
+        "country":"Thailand"
+      },
+      "06":{
+        "year":"2011",
+        "place":"Ayutthaya",
+        "country":"Thailand"
+      },
+      "07":{
+        "year":"2011",
+        "place":"Bangkok",
+        "country":"Thailand"
+      },
+      "09":{
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
+      },
+      "10":{
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
+      },
+      "16":{
+        "year":"2008",
+        "place":"Vigan, Ilocos Sur",
+        "country":"Philippines"
+      },
+      "17":{
+        "year":"2008",
+        "place":"Laoag, Ilocos Norte",
+        "country":"Philippines"
+      },
+      "18":{
+        "year":"2008",
+        "place":"Pagudpod, Ilocos Norte",
+        "country":"Philippines"
+      },
+      "23":{
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
+      },
+      "24":{
+        "year":"2013",
+        "place":"Yogyakarta",
+        "country":"Indonesia"
+      },
+      "25":{
+        "year":"2013",
+        "place":"Borobodur & Prambanan",
+        "country":"Indonesia"
+      },
+      "26":{
+        "year":"2013",
+        "place":"Yogyakarta",
+        "country":"Indonesia"
       },
       "29":{
-        "year": "2012",
-        "place": "Ellora",
-        "country": "India"
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
       },
       "30":{
-        "year": "2012",
-        "place": "Mumbai",
-        "country": "India"
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
       },
       "31":{
-        "year": "2012",
-        "place": "Hampi",
-        "country": "India"
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
+      }
+    },
+    "September":{
+      "01":{
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
+      },
+      "02":{
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
+      },
+      "03":{
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
+      },
+      "04":{
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
+      },
+      "05":{
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
+      },
+      "06":{
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
+      },
+      "07":{
+        "year":"2014",
+        "place":"Barcelona",
+        "country":"Spain"
+      },
+      "24":{
+        "year":"2008",
+        "place":"Dubai",
+        "country":"UAE"
+      },
+      "25":{
+        "year":"2008",
+        "place":"Cairo",
+        "country":"Egypt"
+      },
+      "26":{
+        "year":"2008",
+        "place":"Khan-El-Khalili bazaar, Cairo",
+        "country":"Egypt"
+      },
+      "27":{
+        "year":"2008",
+        "place":"Alexandria",
+        "country":"Egypt"
+      },
+      "28":{
+        "year":"2008",
+        "place":"Egyptian Museum & Citadel, Cairo",
+        "country":"Egypt"
+      }
+    },
+    "October":{
+      "03":{
+        "year":"2008",
+        "place":"Pyramids of Giza",
+        "country":"Egypt"
+      },
+      "06":{
+        "year":"2008",
+        "place":"Step Pyramid of Djoser, Saqqara",
+        "country":"Egypt"
+      },
+      "16":{
+        "year":"2009",
+        "place":"The Ruins in Talisay",
+        "country":"Philippines"
+      },
+      "17":{
+        "year":"2009",
+        "place":"Bacolod for Masskara",
+        "country":"Philippines"
+      },
+      "18":[
+        {
+          "year":"2009",
+          "place":"Bacolod for Masskara",
+          "country":"Philippines"
+        },
+        {
+          "year":"2013",
+          "place":"Cagayan De Oro",
+          "country":"Philippines"
+        }
+      ],
+      "19":{
+        "year":"2013",
+        "place":"Cagayan De Oro",
+        "country":"Philippines"
+      },
+      "20":[
+        {
+          "year":"2012",
+          "place":"Bacolod for Masskara",
+          "country":"Philippines"
+        },
+        {
+          "year":"2013",
+          "place":"Cagayan De Oro",
+          "country":"Philippines"
+        }
+      ],
+      "21":[
+        {
+          "year":"2012",
+          "place":"Bacolod for Masskara",
+          "country":"Philippines"
+        },
+        {
+          "year":"2013",
+          "place":"Cagayan De Oro",
+          "country":"Philippines"
+        }
+      ],
+      "26":{
+        "year":"2012",
+        "place":"Kuala Lumpur",
+        "country":"Malaysia"
+      },
+      "27":{
+        "year":"2012",
+        "place":"Mumbai",
+        "country":"India"
+      },
+      "28":{
+        "year":"2012",
+        "place":"Ajanta",
+        "country":"India"
+      },
+      "29":{
+        "year":"2012",
+        "place":"Ellora",
+        "country":"India"
+      },
+      "30":{
+        "year":"2012",
+        "place":"Mumbai",
+        "country":"India"
+      },
+      "31":{
+        "year":"2012",
+        "place":"Hampi",
+        "country":"India"
       }
     },
     "November":{
-      "01":{
-        "year": "2012",
-        "place": "Hampi",
-        "country": "India"
-      },
-      "02":{
-        "year": "2012",
-        "place": "Mysore",
-        "country": "India"
-      },
-      "03":{
-        "year": "2012",
-        "place": "Bangalore",
-        "country": "India"
-      },
+      "01":[
+        {
+          "year":"2012",
+          "place":"Hampi",
+          "country":"India"
+        },
+        {
+          "year":"2013",
+          "place":"Boracay Island",
+          "country":"Philippines"
+        }
+      ],
+      "02":[
+        {
+          "year":"2012",
+          "place":"Mysore",
+          "country":"India"
+        },
+        {
+          "year":"2013",
+          "place":"Boracay Island",
+          "country":"Philippines"
+        }
+      ],
+      "03":[
+        {
+          "year":"2012",
+          "place":"Bangalore",
+          "country":"India"
+        },
+        {
+          "year":"2013",
+          "place":"Boracay Island",
+          "country":"Philippines"
+        }
+      ],
       "18":{
-        "year": "2009",
-        "place": "Caramoan",
-        "country": "Philippines"
+        "year":"2009",
+        "place":"Caramoan",
+        "country":"Philippines"
       },
       "19":{
-        "year": "2009",
-        "place": "Caramoan",
-        "country": "Philippines"
+        "year":"2009",
+        "place":"Caramoan",
+        "country":"Philippines"
       },
       "20":{
-        "year": "2009",
-        "place": "Caramoan",
-        "country": "Philippines"
+        "year":"2009",
+        "place":"Caramoan",
+        "country":"Philippines"
       },
       "21":{
-        "year": "2009",
-        "place": "Caramoan",
-        "country": "Philippines"
+        "year":"2009",
+        "place":"Caramoan",
+        "country":"Philippines"
       },
       "23":{
-        "year": "2010",
-        "place": "Hongkong",
-        "country": "China"
+        "year":"2010",
+        "place":"Hongkong",
+        "country":"China"
       },
       "24":{
-        "year": "2010",
-        "place": "Hongkong Disneyland",
-        "country": "China"
+        "year":"2010",
+        "place":"Hongkong Disneyland",
+        "country":"China"
       },
       "25":{
-        "year": "2010",
-        "place": "Macau",
-        "country": "China"
+        "year":"2010",
+        "place":"Macau",
+        "country":"China"
       },
       "26":{
-        "year": "2010",
-        "place": "The Peak, Hongkong",
-        "country": "China"
+        "year":"2010",
+        "place":"The Peak, Hongkong",
+        "country":"China"
       }
     },
     "December":{
       "14":{
-        "year": "2008",
-        "place": "Singapore",
-        "country": "Singapore"
+        "year":"2008",
+        "place":"Singapore",
+        "country":"Singapore"
+      },
+      "15":{
+        "year":"2012",
+        "place":"Corregidor",
+        "country":"Philippines"
       },
       "27":{
-        "year": "2014",
-        "place": "London",
-        "country": "United Kingdom"
+        "year":"2014",
+        "place":"London",
+        "country":"United Kingdom"
       },
       "28":{
-        "year": "2014",
-        "place": "London",
-        "country": "United Kingdom"
+        "year":"2014",
+        "place":"London",
+        "country":"United Kingdom"
       },
       "29":{
-        "year": "2014",
-        "place": "London",
-        "country": "United Kingdom"
+        "year":"2014",
+        "place":"London",
+        "country":"United Kingdom"
       },
       "30":{
-        "year": "2014",
-        "place": "London",
-        "country": "United Kingdom"
+        "year":"2014",
+        "place":"London",
+        "country":"United Kingdom"
       },
       "31":{
-        "year": "2014",
-        "place": "NYE in London",
-        "country": "United Kingdom"
+        "year":"2014",
+        "place":"NYE in London",
+        "country":"United Kingdom"
       }
     }
-  }}
+  }
+}

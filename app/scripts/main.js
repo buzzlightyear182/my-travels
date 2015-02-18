@@ -107,11 +107,17 @@ $(document).ready(function() {
   function removeColors(){
     var all_events = document.querySelectorAll('.event');
     for(var i=0; i < all_events.length; i++){
-      if (all_events[i].classList.length === 4){
-        var last_class = all_events[i].classList[3];
-        all_events[i].classList.remove(last_class);
-        all_events[i].removeAttribute('data-toggle', 'modal');
-        all_events[i].removeAttribute('data-target', '#modal_details');
+      removeUnnecessaryClasses(all_events[i]);
+    }
+  }
+
+  function removeUnnecessaryClasses(event){
+    if (event.classList.length === 4){
+      for (var i=0; i < event.classList.length; i++){
+        var last_class = event.classList[3];
+        event.classList.remove(last_class);
+        event.removeAttribute('data-toggle', 'modal');
+        event.removeAttribute('data-target', '#modal_details');
       }
     }
   }
