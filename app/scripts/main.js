@@ -40,6 +40,20 @@ $(document).ready(function() {
     getTripsOf(year);
   });
 
+  // $('.month_button').click(function(){
+  //   removeColors();
+  //   $.getJSON('../scripts/better_trips.json', function(data){
+  //     var month = event.target.textContent;
+
+  //     for (var year = 2008; year <= 2015; year++){
+  //       if (data.trips[year][month]) {
+  //         console.log("Month: " + month + " Year: " + year);
+  //         addColors(data.trips[year][month], month, year);
+  //       }
+  //     }
+  //   });
+  // });
+
   $('.row .btn-group .btn').click(function(){
     // console.log("Clicked!")
     event.target.setAttribute('data-toggle', 'modal');
@@ -50,6 +64,31 @@ $(document).ready(function() {
 
     getTripDetailsOf(date);
   });
+
+  function getTripsOf(year){
+    $.getJSON('../scripts/better_trips.json', function(data){
+      var monthList = Object.keys(data.trips[year]);
+
+      for (var i = 0; i < monthList.length; i++){
+        var month = monthList[i];
+        addColors(data.trips[year][month], month, year);
+      }
+    })
+  }
+
+  function addColors(tripsInMonth, monthName, year){
+    var color = month_colors[monthName];
+    var shade = year_shades[year];
+
+    var dayList = Object.keys(tripsInMonth);
+    var daysOfTheMonth = document.querySelector('.' + color).nextElementSibling.children;
+
+    for (var i = 0; i < dayList.length; i++){
+      var day = dayList[i];
+      daysOfTheMonth[day-1].classList.add(color + shade);
+      daysOfTheMonth[day-1].classList.add("trip");
+    }
+  }
 
   function getTripDetailsOf(date){
     $.getJSON('../scripts/better_trips.json', function(data){
@@ -73,32 +112,6 @@ $(document).ready(function() {
     var formatted_date = date.month + " " + date.day + ", " + date.year
 
     $('.modal-header').append('<h4 class="modal-title">' + location + '</h4><p class="modal-title">' + formatted_date + '</h4><hr>');
-  }
-
-  function getTripsOf(year){
-    $.getJSON('../scripts/better_trips.json', function(data){
-      var tripsYear = data.trips[year];
-      var monthList = Object.keys(tripsYear);
-
-      for (var i = 0; i < monthList.length; i++){
-        var month = monthList[i];
-        addColors(tripsYear[month], month, year);
-      }
-    })
-  }
-
-  function addColors(tripsInMonth, monthName, year){
-    var monthColor = month_colors[monthName];
-    var shade = year_shades[year];
-
-    var dayList = Object.keys(tripsInMonth);
-    var daysOfTheMonth = document.querySelector('.' + monthColor).nextElementSibling.children;
-
-    for (var i = 0; i < dayList.length; i++){
-      var day = dayList[i];
-      daysOfTheMonth[day-1].classList.add(monthColor + shade);
-      daysOfTheMonth[day-1].classList.add("trip");
-    }
   }
 
   function removeColors(){
