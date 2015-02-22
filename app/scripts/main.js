@@ -29,7 +29,7 @@ $(document).ready(function() {
 
   $('#show_all').click(function(){
     removeColors();
-    for (var i=2008; i <=2015; i++){
+    for (var i = 2008; i <= 2015; i++){
       getTripsOf(i);
     }
   });
@@ -40,6 +40,41 @@ $(document).ready(function() {
     getTripsOf(year);
   });
 
+  $('.row .btn-group .btn').click(function(){
+    // console.log("Clicked!")
+    event.target.setAttribute('data-toggle', 'modal');
+    event.target.setAttribute('data-target', '#modal_details');
+    removeOnModal();
+
+    var date = {'month': event.target.parentElement.previousElementSibling.textContent, 'day': event.target.textContent, 'year': ""}
+
+    getTripDetailsOf(date);
+  });
+
+  function getTripDetailsOf(date){
+    $.getJSON('../scripts/better_trips.json', function(data){
+      for (var year = 2008; year <= 2015; year++){
+        if (data.trips[year][date.month]) {
+          date.year = year;
+          getDayTrips(data.trips[year][date.month], date);
+        }
+      }
+    })
+  }
+
+  function getDayTrips(tripsInMonth, date){
+    if (tripsInMonth[date.day]){
+      showOnModal(tripsInMonth[date.day], date);
+    }
+  }
+
+  function showOnModal(trip, date){
+    var location = trip.place + ", " + trip.country
+    var formatted_date = date.month + " " + date.day + ", " + date.year
+
+    $('.modal-header').append('<h4 class="modal-title">' + location + '</h4><p class="modal-title">' + formatted_date + '</h4><hr>');
+  }
+
   function getTripsOf(year){
     $.getJSON('../scripts/better_trips.json', function(data){
       var tripsYear = data.trips[year];
@@ -47,22 +82,21 @@ $(document).ready(function() {
 
       for (var i = 0; i < monthList.length; i++){
         var month = monthList[i];
-        getTripsInMonthOf(tripsYear[month], month, year);
+        addColors(tripsYear[month], month, year);
       }
     })
   }
 
-  function getTripsInMonthOf(tripsInMonth, monthName, year){
+  function addColors(tripsInMonth, monthName, year){
     var monthColor = month_colors[monthName];
     var shade = year_shades[year];
-    var color_shade = monthColor + shade;
 
     var dayList = Object.keys(tripsInMonth);
     var daysOfTheMonth = document.querySelector('.' + monthColor).nextElementSibling.children;
 
     for (var i = 0; i < dayList.length; i++){
       var day = dayList[i];
-      daysOfTheMonth[day-1].classList.add(color_shade);
+      daysOfTheMonth[day-1].classList.add(monthColor + shade);
       daysOfTheMonth[day-1].classList.add("trip");
     }
   }
@@ -81,78 +115,9 @@ $(document).ready(function() {
     }
   }
 
-  // function getColorPerEvent(events_array, year) {
-  //    for(var i=0; i < events_array.length; i++){
-  //     var month = events_array[i].parentElement.previousElementSibling.textContent;
-  //     var shade = year_shades[year];
-
-  //     var color_shaded = month_colors[month] + shade;
-  //     events_array[i].classList.add(color_shaded);
-  //   }
-  // }
-
-  // $('.trip').click(function(){
-  //   event.target.setAttribute('data-toggle', 'modal');
-  //   event.target.setAttribute('data-target', '#modal_details');
-  //   removeOnModal();
-
-  //   var month = event.target.parentElement.previousElementSibling.textContent;
-  //   var day = event.target.textContent;
-
-  //   getTrips(month,day);
-  // });
-
-  // function removeOnModal(){
-  //   $('.modal-title').remove();
-  //   $('.modal-header hr').remove();
-  // }
-
-  // function getTrips(month, day){
-  //   $.getJSON('../scripts/trips.json', function(data){
-  //     var trip = data.trips[month][day];
-  //     if (trip.length > 1) {
-  //       showAllDayEvents(trip, month, day);
-  //     }
-  //     else {
-  //       showOnModal(trip, month, day);
-  //     }
-  //   })
-  //   .done(function(data) {
-  //     console.log('Loaded!');
-  //   })
-  //   .fail(function() {
-  //     console.log('Error: Failed to get JSON Data');
-  //   })
-  // }
-
-  // function showAllDayEvents(trip, month, day){
-  //   for (i = 0; i < trip.length; i++){
-  //     showOnModal(trip[i], month, day)
-  //   }
-  // }
-
-  // function showOnModal(trip, month, day){
-  //   var location = trip.place + ", " + trip.country
-  //   var date = month + " " + day +  ", " + trip.year
-
-  //   $('.modal-header').append('<h4 class="modal-title">' + location + '</h4><p class="modal-title">' + date + '</h4><hr>');
-  // }
-
-  // function getEventsOf(year){
-  //   var events_year = '.year_'+year;
-  //   var events_array = document.querySelectorAll(events_year);
-
-  //   getColorPerEvent(events_array, year);
-  // }
-
-  // function getColorPerEvent(events_array, year) {
-  //    for(var i=0; i < events_array.length; i++){
-  //     var month = events_array[i].parentElement.previousElementSibling.textContent;
-  //     var shade = year_shades[year];
-
-  //     var color_shaded = month_colors[month] + shade;
-  //     events_array[i].classList.add(color_shaded);
-  //   }
-  // }
+  function removeOnModal(){
+    $('.modal-title').remove();
+    $('.modal-header hr').remove();
+  }
 
 });
