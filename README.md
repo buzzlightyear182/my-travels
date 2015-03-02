@@ -13,9 +13,13 @@ You can click on the year and dates, and it will show the place and date when I 
 ####TODO:####
 
 ~~1. Reformat JSON data file~~
+
 ~~2. Refactor Javascript~~
+
 3. Filter by month and location
+
 4. Rails API autogenerate JSON
+
 5. Refactor again JS to use AngularJS
 
 
