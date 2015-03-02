@@ -1,3 +1,5 @@
+'use strict';
+
 $(document).ready(function() {
   $.material.init();
 
@@ -40,19 +42,17 @@ $(document).ready(function() {
     getTripsOf(year);
   });
 
-  // $('.month_button').click(function(){
-  //   removeColors();
-  //   $.getJSON('../scripts/better_trips.json', function(data){
-  //     var month = event.target.textContent;
-
-  //     for (var year = 2008; year <= 2015; year++){
-  //       if (data.trips[year][month]) {
-  //         console.log("Month: " + month + " Year: " + year);
-  //         addColors(data.trips[year][month], month, year);
-  //       }
-  //     }
-  //   });
-  // });
+  $('.month_button').click(function(event){
+    removeColors();
+      var month = event.target.textContent;
+    $.getJSON('../scripts/better_trips.json', function(data){
+      for (var year = 2008; year <= 2015; year++){
+        if (data.trips[year][month] != undefined) {
+          addColors(data.trips[year][month], month, year);
+        }
+      }
+    });
+  });
 
   $('.row .btn-group .btn').click(function(){
     // console.log("Clicked!")
@@ -60,7 +60,7 @@ $(document).ready(function() {
     event.target.setAttribute('data-target', '#modal_details');
     removeOnModal();
 
-    var date = {'month': event.target.parentElement.previousElementSibling.textContent, 'day': event.target.textContent, 'year': ""}
+    var date = {'month': event.target.parentElement.previousElementSibling.textContent, 'day': event.target.textContent, 'year': ''};
 
     getTripDetailsOf(date);
   });
@@ -86,14 +86,14 @@ $(document).ready(function() {
     for (var i = 0; i < dayList.length; i++){
       var day = dayList[i];
       daysOfTheMonth[day-1].classList.add(color + shade);
-      daysOfTheMonth[day-1].classList.add("trip");
+      daysOfTheMonth[day-1].classList.add('trip');
     }
   }
 
   function getTripDetailsOf(date){
     $.getJSON('../scripts/better_trips.json', function(data){
       for (var year = 2008; year <= 2015; year++){
-        if (data.trips[year][date.month]) {
+        if (data.trips[year][date.month] != undefined) {
           date.year = year;
           getDayTrips(data.trips[year][date.month], date);
         }
@@ -108,8 +108,8 @@ $(document).ready(function() {
   }
 
   function showOnModal(trip, date){
-    var location = trip.place + ", " + trip.country
-    var formatted_date = date.month + " " + date.day + ", " + date.year
+    var location = trip.place + ', ' + trip.country
+    var formatted_date = date.month + ' ' + date.day + ', ' + date.year
 
     $('.modal-header').append('<h4 class="modal-title">' + location + '</h4><p class="modal-title">' + formatted_date + '</h4><hr>');
   }
