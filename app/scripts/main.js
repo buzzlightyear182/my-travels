@@ -3,7 +3,7 @@
 $(document).ready(function() {
   $.material.init();
 
-  var month_colors = {
+  var monthColors = {
     January: 'btn-material-red',
     February: 'btn-material-deep-orange',
     March: 'btn-material-amber',
@@ -18,7 +18,7 @@ $(document).ready(function() {
     December: 'btn-material-pink',
   };
 
-  var year_shades = {
+  var yearShades = {
     '2008': '-800',
     '2009': '-700',
     '2010': '-600',
@@ -47,7 +47,7 @@ $(document).ready(function() {
       var month = event.target.textContent;
     $.getJSON('../scripts/better_trips.json', function(data){
       for (var year = 2008; year <= 2015; year++){
-        if (data.trips[year][month] != undefined) {
+        if (data.trips[year][month] !== undefined) {
           addColors(data.trips[year][month], month, year);
         }
       }
@@ -73,12 +73,12 @@ $(document).ready(function() {
         var month = monthList[i];
         addColors(data.trips[year][month], month, year);
       }
-    })
+    });
   }
 
   function addColors(tripsInMonth, monthName, year){
-    var color = month_colors[monthName];
-    var shade = year_shades[year];
+    var color = monthColors[monthName];
+    var shade = yearShades[year];
 
     var dayList = Object.keys(tripsInMonth);
     var daysOfTheMonth = document.querySelector('.' + color).nextElementSibling.children;
@@ -93,12 +93,12 @@ $(document).ready(function() {
   function getTripDetailsOf(date){
     $.getJSON('../scripts/better_trips.json', function(data){
       for (var year = 2008; year <= 2015; year++){
-        if (data.trips[year][date.month] != undefined) {
+        if (data.trips[year][date.month] !== undefined) {
           date.year = year;
           getDayTrips(data.trips[year][date.month], date);
         }
       }
-    })
+    });
   }
 
   function getDayTrips(tripsInMonth, date){
@@ -108,10 +108,10 @@ $(document).ready(function() {
   }
 
   function showOnModal(trip, date){
-    var location = trip.place + ', ' + trip.country
-    var formatted_date = date.month + ' ' + date.day + ', ' + date.year
+    var location = trip.place + ', ' + trip.country;
+    var formattedDate = date.month + ' ' + date.day + ', ' + date.year;
 
-    $('.modal-header').append('<h4 class="modal-title">' + location + '</h4><p class="modal-title">' + formatted_date + '</h4><hr>');
+    $('.modal-header').append('<h4 class="modal-title">' + location + '</h4><p class="modal-title">' + formattedDate + '</h4><hr>');
   }
 
   function removeColors(){
@@ -121,8 +121,8 @@ $(document).ready(function() {
       var classCount = coloredDate[i].classList.length;
 
       while (classCount > 0) {
-        var last_class = coloredDate[i].classList[classCount];
-        coloredDate[i].classList.remove(last_class);
+        var lastClass = coloredDate[i].classList[classCount];
+        coloredDate[i].classList.remove(lastClass);
         classCount = classCount - 1;
       }
     }
