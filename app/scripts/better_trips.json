@@ -1000,6 +1000,110 @@
           "place":"Seoul",
           "country":"South Korea"
         }
+      },
+      "May":{
+        "13":{
+          "place":"Blue Lagoon",
+          "country":"Iceland"
+        },
+        "14":{
+          "place":"Golden Circle",
+          "country":"Iceland"
+        },
+        "15":{
+          "place":"Glacier Walk and Super Jeep Tour",
+          "country":"Iceland"
+        },
+        "16":{
+          "place":"Reykjavik",
+          "country":"Iceland"
+        },
+        "17":{
+          "place":"Reykjavik",
+          "country":"Iceland"
+        },
+        "18":{
+          "place":"Stockholm",
+          "country":"Sweden"
+        },
+        "19":{
+          "place":"Uppsala",
+          "country":"Sweden"
+        },
+        "20":{
+          "place":"Copenhagen",
+          "country":"Denmark"
+        },
+        "21":{
+          "place":"Copenhagen",
+          "country":"Denmark"
+        },
+        "22":{
+          "place":"Copenhagen",
+          "country":"Denmark"
+        },
+        "23":{
+          "place":"Oslo",
+          "country":"Norway"
+        },
+        "24":{
+          "place":"Bergen Railway + Flamsbana",
+          "country":"Norway"
+        },
+        "25":{
+          "place":"Flam + Fjord Cruise",
+          "country":"Norway"
+        },
+        "26":{
+          "place":"Bergen",
+          "country":"Norway"
+        },
+        "27":{
+          "place":"Saarbrucken",
+          "country":"Germany"
+        },
+        "28":{
+          "place":"Saarbrucken",
+          "country":"Germany"
+        },
+        "29":{
+          "place":"Saarbrucken",
+          "country":"Germany"
+        },
+        "30":{
+          "place":"Saarbrucken",
+          "country":"Germany"
+        },
+        "31":{
+          "place":"Santander",
+          "country":"Spain"
+        }
+      },
+      "June":{
+        "01":{
+          "place":"Bilbao",
+          "country":"Spain"
+        },
+        "02":{
+          "place":"Bilbao",
+          "country":"Spain"
+        },
+        "03":{
+          "place":"San Sebastian",
+          "country":"Spain"
+        },
+        "04":{
+          "place":"San Sebastian",
+          "country":"Spain"
+        },
+        "05":{
+          "place":"Bilbao",
+          "country":"Spain"
+        },
+        "06":{
+          "place":"Amsterdam",
+          "country":"Netherlands"
+        }
       }
     }
   }
